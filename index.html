@@ -1,235 +1,112 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
+    <title>F5 Games - MBTI 검사 성격 이상형 테스트</title>
     <meta charset="utf-8" />
-    <link rel="icon" href="https://mbti.inforever.xyz/favicon.ico" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="title" content="MBTI 검사 이상형 궁합 성격유형 테스트" />
-    <meta name="plink" content="https://mbti.inforever.xyz" />
-    <meta name="robots" content="index, follow" />
-    <meta
-      name="keywords"
-      content="MBTI, MBTI 검사, MBTI 이상형 테스트, 심리테스트, ESTJ, ESTP, ESFJ, ESFP, ENTJ, ENTP, ENFJ, ENFP, ISTJ, ISTP, ISFJ,ISFP, INTJ, INTP, INFJ, INFP 특징"
+    <link rel="canonical" href="https://mbti.f5game.co.kr" />
+    <link
+      ref="manifest"
+      href="https://f5game.s3.ap-northeast-2.amazonaws.com/manifest.json"
     />
+    <link
+      rel="icon"
+      href="https://f5game.s3.ap-northeast-2.amazonaws.com/mbti-favicon.ico"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="title" content="F5 Games - MBTI 검사 성격 이상형 테스트" />
+    <meta name="plink" content="https://mbti.f5game.co.kr" />
+    <meta name="robots" content="index, follow" />
+    <meta name="keywords" content="MBTI 검사 성격 이상형 테스트" />
     <meta
       name="description"
-      content="나의 MBTI 검사 이상형 테스트 궁합 성격유형을 찾아보세요. MBTI 성격유형검사 16가지의 무료성격 유형검사를 해보고 이상형의 MBTI와 당신의 MBTI의 유형을 분석해 드립니다."
+      content="자신의 성격유형을 파악하여 대인관계 및 의사소통 능력 향상에 도움을 주는 심리검사입니다. MBTI 검사는 개인의 선호경향성을 바탕으로 16가지 성격유형 중 하나로 분류하며, 각 유형별 특징을 이해함으로써 타인과의 상호작용시 발생하는 갈등이나 스트레스를 효과적으로 관리할 수 있도록 도와줍니다."
     />
-    <meta
-      name="google-site-verification"
-      content="IpL3iAUV6KNPHciOJHtPg4GL4_Hd1eC8JMP8laVWRA0"
-    />
-    <meta
-      name="naver-site-verification"
-      content="3ff17a0cf4a0c279a744523585a5bc70c398aaad"
-    />
-    <meta name="p:domain_verify" content="96c3b3a684554e6d313ee90e870071cd" />
+
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://mbti.inforever.xyz" />
-    <meta property="og:article:author" content="Inforever" />
+    <meta property="og:url" content="https://mbti.f5game.co.kr" />
+    <meta property="og:article:author" content="F5game" />
     <meta
       property="og:site_name"
-      content="MBTI 검사 이상형 궁합 성격유형 테스트"
+      content="F5 Games - MBTI 검사 성격 이상형 테스트"
     />
-    <meta property="og:title" content="MBTI 검사 이상형 궁합 성격유형 테스트" />
+    <meta
+      property="og:title"
+      content="F5 Games - MBTI 검사 성격 이상형 테스트"
+    />
     <meta
       property="og:description"
-      content="나의 MBTI 검사 이상형 테스트 궁합 성격유형을 찾아보세요. MBTI 성격유형검사 16가지의 무료성격 유형검사를 해보고 이상형의 MBTI와 당신의 MBTI의 유형을 분석해 드립니다."
+      content="자신의 성격유형을 파악하여 대인관계 및 의사소통 능력 향상에 도움을 주는 심리검사입니다. MBTI 검사는 개인의 선호경향성을 바탕으로 16가지 성격유형 중 하나로 분류하며, 각 유형별 특징을 이해함으로써 타인과의 상호작용시 발생하는 갈등이나 스트레스를 효과적으로 관리할 수 있도록 도와줍니다."
     />
     <meta
       property="og:image"
-      content="https://s3.ap-northeast-2.amazonaws.com/mbti.inforever.xyz/logo.png"
+      content="https://f5game.s3.ap-northeast-2.amazonaws.com/mbti.png"
     />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@MBTI" />
+    <meta name="twitter:site" content="@mbti.f5game.co.kr" />
     <meta
       name="twitter:title"
-      content="MBTI 검사 이상형 궁합 성격유형 테스트"
+      content="F5 Games - MBTI 검사 성격 이상형 테스트"
     />
     <meta
       name="twitter:description"
-      content="나의 MBTI 검사 이상형 테스트 궁합 성격유형을 찾아보세요. MBTI 성격유형검사 16가지의 무료성격 유형검사를 해보고 이상형의 MBTI와 당신의 MBTI의 유형을 분석해 드립니다."
+      content="자신의 성격유형을 파악하여 대인관계 및 의사소통 능력 향상에 도움을 주는 심리검사입니다. MBTI 검사는 개인의 선호경향성을 바탕으로 16가지 성격유형 중 하나로 분류하며, 각 유형별 특징을 이해함으로써 타인과의 상호작용시 발생하는 갈등이나 스트레스를 효과적으로 관리할 수 있도록 도와줍니다."
     />
     <meta
       property="twitter:image"
-      content="https://mbti.inforever.xyz/logo.png"
+      content="https://f5game.s3.ap-northeast-2.amazonaws.com/mbti.png"
     />
-    <link rel="canonical" href="https://mbti.inforever.xyz" />
     <link
       rel="apple-touch-icon"
-      href="https://mbti.inforever.xyz/logo192.png"
+      href="https://f5game.s3.ap-northeast-2.amazonaws.com/mbti.png"
     />
+    <script
+      src="//t1.daumcdn.net/tistory_admin/lib/jquery/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://t1.kakaocdn.net/kakao_js_sdk/v1/kakao.js"></script>
     <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
     <script type="text/javascript">
       if (!wcs_add) var wcs_add = {};
-      (wcs_add.wa = "1102636d0c381a0"), window.wcs && wcs_do();
+      wcs_add["wa"] = "1102636d0c381a0";
+      if (window.wcs) {
+        wcs_do();
+      }
     </script>
     <script
       async
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9130836798889522"
     ></script>
-    <title>MBTI 검사 이상형 궁합 성격유형 테스트</title>
-    <script src="https://developers.kakao.com/sdk/js/kakao.js"></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-WN0EFBF5PM"
-    ></script>
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=AW-910195992"
-    ></script>
+    <!-- Google Tag Manager -->
     <script>
-      !(function (e, t, a, n, g) {
-        (e[n] = e[n] || []),
-          e[n].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-        var m = t.getElementsByTagName(a)[0],
-          r = t.createElement(a);
-        (r.async = !0),
-          (r.src = "https://www.googletagmanager.com/gtm.js?id=GTM-MG8X7NR"),
-          m.parentNode.insertBefore(r, m);
-      })(window, document, "script", "dataLayer");
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-KD9FMC3");
     </script>
-    <script>
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      (window.dataLayer = window.dataLayer || []),
-        gtag("js", new Date()),
-        gtag("config", "AW-910195992");
-    </script>
-    <script>
-      gtag("event", "conversion", {
-        send_to: "AW-910195992/zLQ8CPDfoIYDEJj6gbID",
-      });
-    </script>
-    <script type="application/ld+json">
-      {
-        "@context": "http://schema.org",
-        "@type": "SoftwareApplication",
-        "name": "MBTI 검사 이상형 궁합 성격유형 테스트",
-        "image": "https://s3.ap-northeast-2.amazonaws.com/mbti.inforever.xyz/logo.png",
-        "url": "https://mbti.inforever.xyz",
-        "description": "나의 MBTI 검사 이상형 테스트 궁합 성격유형을 찾아보세요. MBTI 성격유형검사 16가지의 무료성격 유형검사를 해보고 이상형의 MBTI와 당신의 MBTI의 유형을 분석해 드립니다.",
-        "author": {
-          "@type": "Person",
-          "name": "inforever"
-        },
-        "publisher": {
-          "@type": "Organization",
-          "name": "inforever"
-        },
-        "sameAs": [
-          "https://mbtilovetest.com",
-          "https://play.google.com/store/apps/details?id=com.f5game.mbti"
-        ],
-        "softwareVersion": "1.0.0"
-      }
-    </script>
-    <link href="/static/css/2.d92b51ff.chunk.css" rel="stylesheet" />
-    <link href="/static/css/main.db0ae207.chunk.css" rel="stylesheet" />
+    <!-- End Google Tag Manager -->
+    <script type="module" crossorigin src="/assets/index.7dd9231f.js"></script>
+    <link rel="stylesheet" href="/assets/index.fad8fd38.css">
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
     <noscript
       ><iframe
-        src="https://www.googletagmanager.com/ns.html?id=GTM-MG8X7NR"
+        src="https://www.googletagmanager.com/ns.html?id=GTM-KD9FMC3"
         height="0"
         width="0"
         style="display: none; visibility: hidden"
       ></iframe
     ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div id="root"></div>
-    <script>
-      !(function (e) {
-        function t(t) {
-          for (
-            var n, i, l = t[0], f = t[1], a = t[2], c = 0, s = [];
-            c < l.length;
-            c++
-          )
-            (i = l[c]),
-              Object.prototype.hasOwnProperty.call(o, i) &&
-                o[i] &&
-                s.push(o[i][0]),
-              (o[i] = 0);
-          for (n in f)
-            Object.prototype.hasOwnProperty.call(f, n) && (e[n] = f[n]);
-          for (p && p(t); s.length; ) s.shift()();
-          return u.push.apply(u, a || []), r();
-        }
-        function r() {
-          for (var e, t = 0; t < u.length; t++) {
-            for (var r = u[t], n = !0, l = 1; l < r.length; l++) {
-              var f = r[l];
-              0 !== o[f] && (n = !1);
-            }
-            n && (u.splice(t--, 1), (e = i((i.s = r[0]))));
-          }
-          return e;
-        }
-        var n = {},
-          o = { 1: 0 },
-          u = [];
-        function i(t) {
-          if (n[t]) return n[t].exports;
-          var r = (n[t] = { i: t, l: !1, exports: {} });
-          return e[t].call(r.exports, r, r.exports, i), (r.l = !0), r.exports;
-        }
-        (i.m = e),
-          (i.c = n),
-          (i.d = function (e, t, r) {
-            i.o(e, t) ||
-              Object.defineProperty(e, t, { enumerable: !0, get: r });
-          }),
-          (i.r = function (e) {
-            "undefined" != typeof Symbol &&
-              Symbol.toStringTag &&
-              Object.defineProperty(e, Symbol.toStringTag, { value: "Module" }),
-              Object.defineProperty(e, "__esModule", { value: !0 });
-          }),
-          (i.t = function (e, t) {
-            if ((1 & t && (e = i(e)), 8 & t)) return e;
-            if (4 & t && "object" == typeof e && e && e.__esModule) return e;
-            var r = Object.create(null);
-            if (
-              (i.r(r),
-              Object.defineProperty(r, "default", { enumerable: !0, value: e }),
-              2 & t && "string" != typeof e)
-            )
-              for (var n in e)
-                i.d(
-                  r,
-                  n,
-                  function (t) {
-                    return e[t];
-                  }.bind(null, n)
-                );
-            return r;
-          }),
-          (i.n = function (e) {
-            var t =
-              e && e.__esModule
-                ? function () {
-                    return e.default;
-                  }
-                : function () {
-                    return e;
-                  };
-            return i.d(t, "a", t), t;
-          }),
-          (i.o = function (e, t) {
-            return Object.prototype.hasOwnProperty.call(e, t);
-          }),
-          (i.p = "/");
-        var l = (this.webpackJsonpmbti = this.webpackJsonpmbti || []),
-          f = l.push.bind(l);
-        (l.push = t), (l = l.slice());
-        for (var a = 0; a < l.length; a++) t(l[a]);
-        var p = f;
-        r();
-      })([]);
-    </script>
-    <script src="/static/js/2.d677e556.chunk.js"></script>
-    <script src="/static/js/main.db66106b.chunk.js"></script>
+    
   </body>
 </html>
